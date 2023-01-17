@@ -1,1 +1,1 @@
-class Note (name : String, val id: String, var value: String) : Storage(name)
+class Note(title: String, val text: String) : Menu(title)
